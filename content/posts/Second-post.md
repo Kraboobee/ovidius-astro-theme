@@ -7,3 +7,5 @@ Ayy lmao
 ![](/post-2.jpg)
 
 hmm suspicious
+
+deployed from vercel
