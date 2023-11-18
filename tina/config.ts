@@ -13,7 +13,7 @@ export default defineConfig({
   // Get this from tina.io
   clientId: "fca84f25-75d3-4d45-be53-bde4396ec8a2",
   // Get this from tina.io
-  token: process.env.TINA_TOKEN,
+  token: "168f55b133a9de7e5e452a7ee82b4daf30defa06",
 
   build: {
     outputFolder: "admin",
@@ -47,10 +47,10 @@ export default defineConfig({
             isBody: true,
           },
         ],
-        // ui: {
-        //   // This is an DEMO router. You can remove this to fit your site
-        //   router: ({ document }) => `/demo/blog/${document._sys.filename}`,
-        // },
+        ui: {
+          // This is an DEMO router. You can remove this to fit your site
+          router: ({ document }) => `/demo/blog/${document._sys.filename}`,
+        },
       },
     ],
   },
