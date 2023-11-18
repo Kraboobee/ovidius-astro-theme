@@ -113,7 +113,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi there!',
-        text: "My name is Kirstin Kleyn. I code, I craft, and I get wasted on weekends.",
+        text: "My name is Kirstin Kleyn. I code, I craft, and I catch shiny pokemon.",
         avatar: {
             src: '/avatar.jpg',
             alt: 'Kirstin Kleyn'

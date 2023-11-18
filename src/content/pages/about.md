@@ -10,8 +10,4 @@ seo:
     src: '/avatar.jpg'
 ---
 
-Kirstin Kleyn is a multitalented creator from Cape Town South Africa. After graduating from Stellenbosch University with a BMus, she developed her hobbies of cardmaking, scrapbooking and dictatorship.
-
-> Kaamraan is a loser.
-
-She mains Shaheen and Law.
+Kirstin Kleyn is a multitalented creator from Cape Town South Africa. After graduating from Stellenbosch University with a BMus, she developed her hobbies of cardmaking and scrapbooking.
