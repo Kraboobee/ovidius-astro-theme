@@ -11,9 +11,9 @@ export default defineConfig({
   branch,
 
   // Get this from tina.io
-  clientId: "fca84f25-75d3-4d45-be53-bde4396ec8a2",
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
   // Get this from tina.io
-  token: "168f55b133a9de7e5e452a7ee82b4daf30defa06",
+  token: process.env.TINA_TOKEN,
 
   build: {
     outputFolder: "admin",
@@ -47,10 +47,6 @@ export default defineConfig({
             isBody: true,
           },
         ],
-        ui: {
-          // This is an DEMO router. You can remove this to fit your site
-          router: ({ document }) => `/demo/blog/${document._sys.filename}`,
-        },
       },
     ],
   },
