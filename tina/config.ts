@@ -11,9 +11,9 @@ export default defineConfig({
   branch,
 
   // Get this from tina.io
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  clientId: "fca84f25-75d3-4d45-be53-bde4396ec8a2",
   // Get this from tina.io
-  token: process.env.TINA_TOKEN,
+  token: "fca84f25-75d3-4d45-be53-bde4396ec8a2",
 
   build: {
     outputFolder: "admin",
