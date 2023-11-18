@@ -40,7 +40,7 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     logo: {
-        src: '/logo.png',
+        src: '/logo.svg',
         alt: 'Miss Kreyn logo'
     },
     title: 'Miss Kreyn',
