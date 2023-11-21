@@ -97,7 +97,7 @@ const siteConfig: SiteConfig = {
         // },
         {
             text: 'Follow on Instagram',
-            href: 'https://instagram.com/',
+            href: 'https://instagram.com/misskreyn',
             icon: 'instagram'
         },
         {
@@ -112,14 +112,14 @@ const siteConfig: SiteConfig = {
         // }
     ],
     hero: {
-        title: 'Hi there!',
-        text: "My name is Kirstin Kleyn. I code, I craft, and I catch shiny pokemon.",
+        title: 'A Gentle Journey of Self Improvement.',
+        text: "You don't have to hate yourself now to love yourself later. Let's find a more sustainable path together.",
         avatar: {
-            src: '/avatar.jpg',
-            alt: 'Kirstin Kleyn'
+            src: '/avatar.webp',
+            alt: 'Kirstin'
         },
         backgroundImage: {
-            src: '/hero.jpg'
+            src: '/hero.webp'
         }
     },
     subscribe: {
