@@ -30,8 +30,8 @@ export default defineConfig({
     collections: [
       {
         name: "post",
-        label: "Posts",
-        path: "content/posts",
+        label: "Blog",
+        path: "src/content/blog",
         fields: [
           {
             type: "string",
@@ -46,6 +46,12 @@ export default defineConfig({
             label: "Body",
             isBody: true,
           },
+          {
+            type: "image", 
+            name: "featureImage", 
+            label: "Featured Image", 
+            required: false
+          }
         ],
       },
     ],
