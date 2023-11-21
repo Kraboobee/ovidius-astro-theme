@@ -34,7 +34,7 @@ if (seo?.image?.src) {
             {
                 featureImage?.src && (
                     <figure class="mx-auto mb-9">
-                        <img src={featureImage.src} loading="lazy" decoding="async" alt={featureImage.alt || ''} class="w-full rounded-md" />
+                        <img src={featureImage.src} loading="lazy" decoding="async" alt={featureImage.alt || ''} class="w-64 rounded-md mx-auto" />
                         {featureImage.caption && <figcaption class="text-xs mt-1.5">{featureImage.caption}</figcaption>}
                     </figure>
                 )
